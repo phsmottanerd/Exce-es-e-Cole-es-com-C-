@@ -1,61 +1,82 @@
-# 🧠 Exceções e Coleções com C# | Bootcamp WEX - DIO 🚀
-
-Este repositório contém os **exercícios práticos desenvolvidos no módulo "Exceções e Coleções com C#"**, parte do **Bootcamp WEX – End to End Engineering**, oferecido pela **DIO.ME**. O foco deste módulo foi aprofundar os conhecimentos sobre **coleções genéricas, tratamento de exceções, manipulação de arquivos e orientação a objetos com C#**.
+<h1 align="center">🚀 Exceções e Coleções com C#</h1>
+<p align="center">
+  <strong>Bootcamp WEX - End to End Engineering | DIO.ME</strong><br/>
+  <em>Módulo prático - 2 horas (de 91h totais)</em>
+</p>
 
 ---
 
-## 📚 Conteúdo do Módulo
+## 🧠 Sobre o Projeto
 
-### 🔹 Coleções Genéricas
-- `Dictionary<string, string>` – Estados brasileiros com chave e valor
-- `Queue<int>` – Fila (FIFO)
-- `Stack<int>` – Pilha (LIFO)
+Este repositório contém os exercícios desenvolvidos no módulo **"Exceções e Coleções com C#"**, onde apliquei conceitos essenciais da linguagem C# e do framework .NET. O foco foi exercitar o uso de coleções genéricas, tratamento de exceções, leitura de arquivos e formatação de dados — habilidades essenciais para qualquer desenvolvedor back-end.
 
-### 🔹 Tratamento de Exceções
-- `try/catch/finally`
-- Leitura de arquivos com `File.ReadAllLines`
-- Tratamento de `FileNotFoundException`, `DirectoryNotFoundException` e `Exception`
+📌 Projeto concluído como parte do bootcamp [**WEX – End to End Engineering**](https://www.dio.me), em parceria com a DIO.
 
-### 🔹 Formatação e Cultura
-- `DateTime` e `ToString()` com formatação personalizada
-- `CultureInfo` para exibir:
-  - Valores monetários
-  - Porcentagens
-  - Formatação de números
+---
 
-### 🔹 Programação Orientada a Objetos
+## 🔍 O que foi explorado?
+
+### 🧩 Coleções Genéricas
+- 📚 `Dictionary<string, string>` – chave e valor
+- 📬 `Queue<int>` – fila (FIFO)
+- 📦 `Stack<int>` – pilha (LIFO)
+
+### ⚠️ Tratamento de Exceções
+- `try / catch / finally`
+- Leitura segura com `File.ReadAllLines`
+- Tratamento de:
+  - `FileNotFoundException`
+  - `DirectoryNotFoundException`
+  - `Exception`
+
+### 🧾 Formatação e Cultura
+- 📅 `DateTime` com formatação personalizada
+- 💰 `CultureInfo` para:
+  - Valores monetários (`ToString("C")`)
+  - Porcentagens (`ToString("P")`)
+  - Máscaras numéricas
+
+### 👨‍🏫 Programação Orientada a Objetos
 - Criação das classes `Pessoa` e `Curso`
-- Adição de alunos em uma lista e apresentação via método
-- Uso de `List<Pessoa>`
+- Listagem de objetos com `List<Pessoa>`
+- Métodos personalizados e instanciamento de alunos
 
 ---
 
-## 💻 Tecnologias Utilizadas
+## ⚙️ Tecnologias e Ferramentas
 
-| Linguagem | Framework | IDE/Editor |
-|----------|-----------|------------|
-| `C#`     | `.NET`    | `Visual Studio Code` ou `Visual Studio` |
+| 💻 Linguagem | 🧩 Framework | 🛠️ Editor |
+|-------------|--------------|-----------|
+| `C#`         | `.NET`       | `VS Code` ou `Visual Studio` |
 
-Também foram utilizadas:
+📦 Namespaces usados:
 - `System.Collections`
 - `System.Globalization`
 - `System.IO`
 
 ---
 
-## 🧪 Estrutura do Projeto
+## 📁 Estrutura do Projeto
 
-O projeto está dividido por blocos de exercícios, cada um com foco em uma habilidade prática:
-- 📦 `Dictionary`, `Queue`, `Stack`
-- 📂 Leitura de arquivos
-- ⚠️ Tratamento de erros
-- 🕒 Formatação de datas e valores
-- 👥 Criação de objetos com classes personalizadas
+📂 `Dicionário`  
+📂 `Pilha e Fila`  
+📂 `Try/Catch/Finally`  
+📂 `Leitura de Arquivo`  
+📂 `Formatação de Dados`  
+📂 `POO com Pessoa e Curso`
+
+> Cada exercício está organizado, com comentários explicativos e código limpo para facilitar o entendimento.
 
 ---
 
-## ✅ Como Executar
+## ▶️ Como executar
 
-1. Clone este repositório:
 ```bash
+# Clone o repositório
 git clone https://github.com/phsmottanerd/Exce-es-e-Cole-es-com-C-.git
+
+# Acesse a pasta do projeto
+cd Exce-es-e-Cole-es-com-C-
+
+# Execute com .NET CLI
+dotnet run

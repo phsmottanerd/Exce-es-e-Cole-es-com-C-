@@ -80,3 +80,13 @@ cd Exce-es-e-Cole-es-com-C-
 
 # Execute com .NET CLI
 dotnet run
+🙋‍♂️ Sobre mim
+Paulo Henrique Santana Motta
+🎯 Desenvolvedor em formação, em transição de carreira com foco em C#, .NET, Front-End e Data Science.
+🚧 Em constante evolução, construindo projetos e fortalecendo minha base técnica.
+📈 Acompanhe minha jornada aqui no GitHub ou no LinkedIn!
+
+⭐ Contribua
+Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias, sugestões ou novos exemplos. Vamos evoluir juntos! 
+
+
